@@ -45,7 +45,8 @@ plt.savefig(file_path_curve)
 #Analisis
 with open(file_path_analisis2, "w") as f:
     f.write("=== HASIL ANALISIS MATERIAL ===\n\n")
+    f.write(f"Material: {pilih_material}\n\n")
+    f.write(f"UTS: {uts} MPa\n")
+    f.write(f"Strain UTS: {uts_strain}\n")
     
-    f.write(f"UTS (Ultimate Tensile Strength): {uts} MPa\n")
-    f.write(f"Strain saat UTS: {uts_strain}\n\n")
 plt.show()

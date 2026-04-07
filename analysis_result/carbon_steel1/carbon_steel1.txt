@@ -1,5 +1,6 @@
 === HASIL ANALISIS MATERIAL ===
 
-UTS (Ultimate Tensile Strength): 524 MPa
-Strain saat UTS: 0.08
+Material: carbon_steel1
 
+UTS: 524 MPa
+Strain UTS: 0.08
