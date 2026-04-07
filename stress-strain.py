@@ -7,10 +7,10 @@ from pathlib import Path
 
 pilih_material = input("Material apa yang ingin di pilih \n")
 
-file_path_analisis = f"hasil_analisis/{pilih_material}"
+file_path_analisis = f"analysis_result/{pilih_material}"
 file_path_analisis2 = f"{file_path_analisis}/{pilih_material}.txt"
 file_path_curve = f"{file_path_analisis}/{pilih_material}.png"
-file_path_data = f"data_stress_strain/{pilih_material}.csv"
+file_path_data = f"stress_strain_data/{pilih_material}.csv"
 
 
 Path(file_path_analisis).mkdir(parents=True, exist_ok=True)
