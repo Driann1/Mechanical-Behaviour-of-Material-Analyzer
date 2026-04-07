@@ -1,0 +1,5 @@
+=== HASIL ANALISIS MATERIAL ===
+
+UTS (Ultimate Tensile Strength): 524 MPa
+Strain saat UTS: 0.08
+
