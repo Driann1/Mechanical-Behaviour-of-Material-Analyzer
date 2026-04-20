@@ -4,3 +4,10 @@ Material: carbon_steel1
 
 UTS: 524 MPa
 Strain UTS: 0.08
+Young's Modulus: 207000.00 MPa
+Yield Strength: 0.00 MPa
+Strain Yield: 0.0000
+Fracture Stress: 352.00 MPa
+Fracture Strain: 0.1900
+Toughness: 91.10 MJ/m^3
+Resilience: 0.10 MJ/m^3
