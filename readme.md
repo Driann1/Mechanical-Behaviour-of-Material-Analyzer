@@ -17,18 +17,7 @@ Features
 
 Folder Structure
 
-project/
-│
-├── stress_strain_data/
-│   ├── steel.csv
-│   ├── aluminum.csv
-│
-├── analysis_result/
-│   ├── steel/
-│   │   ├── steel.png
-│   │   ├── steel.txt
-│
-└── main.py
+project/ │ ├── main.py ├── stress_strain.py │ ├── Test_Data/ │ └── stress_strain_data/ │ ├── Metal/ │ ├── Ceramics/ │ ├── Polymer/ │ └── Composite/ │ ├── analysis_result/ │ └── (auto-generated)
 
 CSV Format Example
 
