@@ -4,12 +4,41 @@ def pilih_material():
     import numpy as np
     from pathlib import Path
 
-    material = input("Material apa yang ingin di pilih \n")
+    print("\n" + "="*50)
+    print("        MATERIAL SELECTION")
+    print("="*50)
 
-    file_path_analisis = f"analysis_result/{material}"
-    file_path_analisis2 = f"{file_path_analisis}/{material}.txt"
-    file_path_curve = f"{file_path_analisis}/{material}.png"
-    file_path_data = f"stress_strain_data/{material}.csv"
+    print("Choose Material Type:")
+    print("  [1] Metal")
+    print("  [2] Ceramics")
+    print("  [3] Polymer")
+    print("  [4] Composite")
+
+    print("-"*50)
+    material = input("Enter choice (1-4) >> ")
+
+    if material == "1":
+        chosen_material = "Metal"
+    elif material == "2":
+        chosen_material = "Ceramics"
+    elif material == "3":
+        chosen_material = "Polymer"
+    elif material == "4":
+        chosen_material = "Composite"
+    else:
+        print("Invalid choice!")
+        exit()
+
+    print("\nSelected Material:", chosen_material)
+    print("-"*50)
+
+    material_code = input("Enter Material Code >> ")
+    print("="*50)
+
+    file_path_analisis = f"analysis_result/{chosen_material}/{material_code}"
+    file_path_analisis2 = f"{file_path_analisis}/{material_code}.txt"
+    file_path_curve = f"{file_path_analisis}/{material_code}.png"
+    file_path_data = f"Test_Data/Tensile_Test_data/{chosen_material}/{material_code}.csv"
 
     Path(file_path_analisis).mkdir(parents=True, exist_ok=True)
     data = pd.read_csv(file_path_data)

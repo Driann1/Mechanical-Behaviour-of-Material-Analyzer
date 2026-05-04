@@ -1,7 +1,7 @@
 A. FERROUS METAL
-1. MF1 = St-37
+1. MF1 = (example data1)
 
 
 
 B. NON FERROUS METAL
-2. MNF1 = 
+2. MNF1 = (example data2)

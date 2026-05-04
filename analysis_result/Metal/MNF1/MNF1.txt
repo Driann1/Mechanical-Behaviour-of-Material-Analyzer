@@ -1,0 +1,13 @@
+=== HASIL ANALISIS MATERIAL ===
+
+Material: 1
+
+UTS: 550 MPa
+Strain UTS: 0.03
+Young's Modulus: 200000.00 MPa
+Yield Strength: 0.00 MPa
+Strain Yield: 0.0000
+Fracture Stress: 350.00 MPa
+Fracture Strain: 0.1500
+Toughness: 71.12 MJ/m^3
+Resilience: 0.23 MJ/m^3

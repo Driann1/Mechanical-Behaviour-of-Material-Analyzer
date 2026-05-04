@@ -1,4 +1,4 @@
 Task
-1. Rapihin folder
+1. Rapihin folder( rubah stress strain -> tensile test)
 2. Sesuaikan folder dengan kode yang baru
 3. Pakai bahasa inggris

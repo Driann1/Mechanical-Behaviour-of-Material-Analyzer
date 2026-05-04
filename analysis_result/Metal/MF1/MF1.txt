@@ -1,6 +1,6 @@
 === HASIL ANALISIS MATERIAL ===
 
-Material: carbon_steel1
+Material: 1
 
 UTS: 524 MPa
 Strain UTS: 0.08
